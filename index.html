@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Tu Percha es una tienda en línea de ropa que ofrece las últimas tendencias de moda para hombres y mujeres. Encuentra todo lo que necesitas para renovar tu armario.">
+    <meta name="keywords" content="ropa, moda, tendencias, hombres, mujeres, tienda en línea, Tu Percha">
+    <title>Tu Percha - Tienda en línea de ropa</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+        integrity="sha384-..." crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-+kLZbXp3l+v2xZ3fM44gXbKjDcU7n6Ox6wz4cXJYqHjPbA1h3xM4T7C0oGx4qGQfO6r6D7j8OJUwE9qVSLH4uw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/animate.css">
+    <!-- Libreria CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Tu Percha</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="social">
+                <a href="https://t.me/leydenietos2022" target="_blank" class="nav-link p-2 keychainify-checked"
+                    style="display: inline-block;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor"
+                        class="bi bi-telegram" viewBox="0 0 16 16">
+                        <path
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z">
+                        </path>
+                    </svg>
+                </a>
+
+                <style>
+                    .nav-link:hover svg {
+                        color: #bcac76;
+                    }
+                </style>
+                <a href="https://wa.me/message/L4RXCCVZ6SBLK1" target="_blank" class="nav-link p-2 keychainify-checked"
+                    style="display: inline-block;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor"
+                        class="bi bi-whatsapp" viewBox="0 0 16 16">
+                        <path
+                            d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z">
+                        </path>
+                    </svg>
+                </a>
+                <a href="tel:+17868022561" class="nav-link p-2 keychainify-checked" style="display: inline-block;">
+                    <span class="fa-stack fa-lg">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor"
+                            class="bi bi-telephone" viewBox="0 0 16 16">
+                            <path
+                                d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                        </svg>
+                    </span>
+                    +1 (786) 802-2561
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Hombres</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Mujeres</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Banner Header-->
+    <section class="py-5 text-dark" style="background-color:#f2efea">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <h1 class="display-4 animate__animated animate__fadeInDown"
+                                    style="animation-delay: 0.5s;">¡Renueva tu pinta con Tu Percha!</h1>
+                                <p class="lead animate__animated animate__fadeInDown" style="animation-delay: 0.8s;">
+                                    Encuentra las últimas tendencias de moda para hombres y mujeres en nuestra tienda en
+                                    línea.</p>
+                                <a href="#"
+                                    class="btn header-effect keychainify-checked animate__animated animate__fadeInDown"
+                                    style="animation-delay: 1s;">Ver productos</a>
+                            </div>
+                            <div class="carousel-item">
+                                <h1 class="display-4 animate__animated animate__fadeInDown"
+                                    style="animation-delay: 0.5s;">¡Encuentra lo que necesitas en Tu Percha!</h1>
+                                <p class="lead animate__animated animate__fadeInDown" style="animation-delay: 0.8s;">
+                                    Tenemos una amplia variedad de ropa, calzado y accesorios para todos los gustos.</p>
+                                <a href="#"
+                                    class="btn header-effect keychainify-checked animate__animated animate__fadeInDown"
+                                    style="animation-delay: 1s;">Ver productos</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./img/1.jpg" class="d-block w-100" alt="Banner">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/2.jpg" class="d-block w-100" alt="Banner">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/3.jpg" class="d-block w-100" alt="Banner">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="/script/textanimatehearder.js">
+        // window.addEventListener("load", function () {
+        //     var title = document.querySelectorAll(".animate__animated");
+        //     for (var i = 0; i < title.length; i++) {
+        //         title[i].classList.add("animate__fadeInDown");
+        //     }
+        // });
+
+    </script>
+
+    <!-- Productos destacados -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="mb-4">Productos destacados</h2>
+            <div class="row">
+                <div class="col-md-3 mb-4">
+                    <div class="card">
+                        <img src="./img/Mujer/vestidos/vestido-002.png" alt="Producto" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title"> Vestido de Cintura</h5>
+                            <p class="card-text">$6000</p>
+                            <a href="#" class="btn bg-encargo">Realice su encargo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card">
+                        <img src="./img/Mujer/Conjunto/conjunto-001.png" alt="Producto" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Conjunto de mujer</h5>
+                            <p class="card-text">$6000</p>
+                            <a href="#" class="btn bg-encargo">Realice su encargo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card">
+                        <img src="./img/Mujer/Calzado-M/zapatillas-001.png" alt="Producto" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Zapatillas de mujer</h5>
+                            <p class="card-text">$9600</p>
+                            <a href="#" class="btn bg-encargo">Realice su encargo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card">
+                        <img src="./img/Mujer/Pantalon_M/pantalon-002.png" alt="Producto" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Pantalón de mujer</h5>
+                            <p class="card-text">$9600</p>
+                            <a href="#" class="btn bg-encargo">Realice su encargo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- llamadaccion -->
+    <section class="py-5 text-center container llamadaccion" data-aos="fade-right">
+        <div class="row py-lg-5">
+            <div class="col-lg-6 col-md-8 mx-auto">
+                <h1 class="fw-light" data-aos="fade-down" data-aos-delay="500" style="color: #D99830;">¡Descubre más
+                    productos en nuestra tienda
+                    en línea!</h1>
+                <!-- <div class="lead text-body-secondary" data-aos="fade-down" data-aos-delay="1000"> -->
+                <div class="lead text-body-secondary">
+                    <div style="animation-delay: 0.7s;" data-aos="fade-down" data-aos-delay="700">
+                        <span><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                                class="bi bi-check2-circle aos-animate" viewBox="0 0 16 16">
+                                <path
+                                    d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
+                                <path
+                                    d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
+                            </svg> ¡Los mejores productos de la temporada!</span>
+                    </div>
+                    <div style="animation-delay: 1s;" data-aos="fade-down" data-aos-delay="1000">
+                        <span><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                                class="bi bi-check2-circle aos-animate" viewBox="0 0 16 16">
+                                <path
+                                    d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
+                                <path
+                                    d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
+                            </svg> ¡Los productos más populares de la semana!</span>
+                    </div>
+                    <div class="animate__animated animate__fadeInDown" style="animation-delay: 1.3s;"
+                        data-aos="fade-down" data-aos-delay="1300">
+                        <span><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                                class="bi bi-check2-circle aos-animate" viewBox="0 0 16 16">
+                                <path
+                                    d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
+                                <path
+                                    d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
+                            </svg> ¡No te pierdas estos productos de segunda mano únicos!</span>
+                    </div>
+                </div>
+                <p data-aos="fade-up" data-aos-delay="1000">
+                    <a href="#" class="btn btn-callaction my-2 keychainify-checked">Productos Nuevos</a>
+                    <a href="#" class="btn btn-callaction my-2 keychainify-checked">Segunda Mano</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+
+    <script>
+        AOS.init({
+            once: true,
+            offset: 200,
+            duration: 1000,
+            delay: 0,
+            easing: 'ease',
+            dataAos: 'fade-left'
+        });
+
+        AOS.refresh();
+    </script>
+
+    <!-- Etiquetas -->
+    <div class="d-flex gap-2 justify-content-center py-5">
+        <a href="#"><span
+                class="badge d-flex align-items-center p-1 pe-2 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-pill btn-lg text-dark">
+                <img class="rounded-circle me-1" width="64" height="64" src="./img/Mujer/blusas/blusa-001.jpg"
+                    alt="">Pulovers
+            </span>
+        </a>
+        <a href="#"><span
+                class="badge d-flex align-items-center p-1 pe-2 text-secondary-emphasis bg-secondary-subtle border border-secondary-subtle rounded-pill btn-lg text-dark">
+                <img class="rounded-circle me-1" width="64" height="64" src="./img/Mujer/Pantalon_M/pantalon-001.png"
+                    alt="">Pantalones
+            </span></a>
+        <a href="#"><span
+                class="badge d-flex align-items-center p-1 pe-2 text-success-emphasis bg-success-subtle border border-success-subtle rounded-pill btn-lg text-dark">
+                <img class="rounded-circle me-1" width="64" height="64" src="./img/Mujer/vestidos/1-.png"
+                    alt="">Vestidos
+            </span></a>
+        <a href="#"><span
+                class="badge d-flex align-items-center p-1 pe-2 text-danger-emphasis bg-danger-subtle border border-danger-subtle rounded-pill btn-lg text-dark">
+                <img class="rounded-circle me-1" width="64" height="64" src="./img/Mujer/Zayas/1.jpg" alt="">Zayas
+            </span></a>
+        <a href="#"><span
+                class="badge d-flex align-items-center p-1 pe-2 text-warning-emphasis bg-warning-subtle border border-warning-subtle rounded-pill btn-lg text-dark">
+                <img class="rounded-circle me-1" width="64" height="64" src="./img/Mujer/blusas/blusa-001.jpg"
+                    alt="">Blusas
+            </span></a>
+        <a href="#"><span
+                class="badge d-flex align-items-center p-1 pe-2 text-info-emphasis bg-info-subtle border border-info-subtle rounded-pill btn-lg text-dark">
+                <img class="rounded-circle me-1" width="64" height="64" src="./img/Mujer/Chaqueta/chaqueta-001.jpg"
+                    alt="">Chaquetas
+            </span></a>
+
+        <!-- <span
+            class="badge d-flex align-items-center p-1 pe-2 text-dark-emphasis bg-light-subtle border border-dark-subtle rounded-pill btn-lg">
+            <img class="rounded-circle me-1" width="64" height="64" src="https://github.com/mdo.png" alt="">Light
+        </span>
+        <span
+            class="badge d-flex align-items-center p-1 pe-2 text-dark-emphasis bg-dark-subtle border border-dark-subtle rounded-pill btn-lg">
+            <img class="rounded-circle me-1" width="64" height="64" src="https://github.com/mdo.png" alt="">Dark
+        </span> -->
+    </div>
+    <div class="d-flex gap-2 justify-content-center py-5">
+        <a href="#"><span
+                class="badge d-flex align-items-center p-1 pe-2 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-pill btn-lg text-dark">
+                <img class="rounded-circle me-1" width="64" height="64" src="./img/Hombre/Suéters/Suéters-001.jpg"
+                    alt="">Suéteres
+            </span></a>
+        <a href="#"><span
+                class="badge d-flex align-items-center p-1 pe-2 text-secondary-emphasis bg-secondary-subtle border border-secondary-subtle rounded-pill btn-lg text-dark">
+                <img class="rounded-circle me-1" width="64" height="64" src="./img/Hombre/Enguatadas/Enguatada-001.jpg"
+                    alt="">Enguatadas
+            </span></a>
+        <a href="#"><span
+                class="badge d-flex align-items-center p-1 pe-2 text-success-emphasis bg-success-subtle border border-success-subtle rounded-pill btn-lg text-dark">
+                <img class="rounded-circle me-1" width="64" height="64"
+                    src="./img/Hombre/Pantalones-H/Pantalon-001-.png" alt="">Pantalones
+            </span></a>
+        <a href="#"><span
+                class="badge d-flex align-items-center p-1 pe-2 text-danger-emphasis bg-danger-subtle border border-danger-subtle rounded-pill btn-lg text-dark">
+                <img class="rounded-circle me-1" width="64" height="64" src="./img/Hombre/polovers/pulovers-1.png"
+                    alt="">Polovers
+            </span></a>
+        <a href="#"><span
+                class="badge d-flex align-items-center p-1 pe-2 text-warning-emphasis bg-warning-subtle border border-warning-subtle rounded-pill btn-lg text-dark">
+                <img class="rounded-circle me-1" width="64" height="64" src="./img/Hombre/Short-H/short-001.jpg"
+                    alt="">Short
+            </span></a>
+        <a href="#"><span
+                class="badge d-flex align-items-center p-1 pe-2 text-info-emphasis bg-info-subtle border border-info-subtle rounded-pill btn-lg text-dark">
+                <img class="rounded-circle me-1" width="64" height="64" src="./img/Hombre/Calzado-H/botas-001.png"
+                    alt="">Calzado
+            </span></a>
+        <!-- <span
+            class="badge d-flex align-items-center p-1 pe-2 text-dark-emphasis bg-light-subtle border border-dark-subtle rounded-pill btn-lg">
+            <img class="rounded-circle me-1" width="64" height="64" src="https://github.com/mdo.png" alt="">Light
+        </span>
+        <span
+            class="badge d-flex align-items-center p-1 pe-2 text-dark-emphasis bg-dark-subtle border border-dark-subtle rounded-pill btn-lg">
+            <img class="rounded-circle me-1" width="64" height="64" src="https://github.com/mdo.png" alt="">Dark
+        </span> -->
+    </div>
+    <!-- Servicios -->
+    <section>
+        <div class="py-5 py-lg-6 bg-gray-100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6 py-4 service-column text-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor"
+                            class="bi bi-truck" viewBox="0 0 16 16">
+                            <path
+                                d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5v-7zm1.294 7.456A1.999 1.999 0 0 1 4.732 11h5.536a2.01 2.01 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456zM12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12v4zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z" />
+                        </svg>
+                        <div class="service-text">
+                            <h6 class="text-sm mb-1">Servicio de Domicilio</h6>
+                            <p class="text-muted fw-light text-sm mb-0">Entrega en la comodidad de tu hogar</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 py-4 service-column text-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor"
+                            class="bi bi-coin" viewBox="0 0 16 16">
+                            <path
+                                d="M5.5 9.511c.076.954.83 1.697 2.182 1.785V12h.6v-.709c1.4-.098 2.218-.846 2.218-1.932 0-.987-.626-1.496-1.745-1.76l-.473-.112V5.57c.6.068.982.396 1.074.85h1.052c-.076-.919-.864-1.638-2.126-1.716V4h-.6v.719c-1.195.117-2.01.836-2.01 1.853 0 .9.606 1.472 1.613 1.707l.397.098v2.034c-.615-.093-1.022-.43-1.114-.9H5.5zm2.177-2.166c-.59-.137-.91-.416-.91-.836 0-.47.345-.822.915-.925v1.76h-.005zm.692 1.193c.717.166 1.048.435 1.048.91 0 .542-.412.914-1.135.982V8.518l.087.02z" />
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                            <path
+                                d="M8 13.5a5.5 5.5 0 1 1 0-11 5.5 5.5 0 0 1 0 11zm0 .5A6 6 0 1 0 8 2a6 6 0 0 0 0 12z" />
+                        </svg>
+                        <div class="service-text">
+                            <h6 class="text-sm mb-1">Garantía de devoluciones</h6>
+                            <p class="text-muted fw-light text-sm mb-0">5 días para aceptar devoluciones</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 py-4 service-column text-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor"
+                            class="bi bi-percent" viewBox="0 0 16 16">
+                            <path
+                                d="M13.442 2.558a.625.625 0 0 1 0 .884l-10 10a.625.625 0 1 1-.884-.884l10-10a.625.625 0 0 1 .884 0zM4.5 6a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm0 1a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5zm7 6a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm0 1a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z" />
+                        </svg>
+                        <div class="service-text">
+                            <h6 class="text-sm mb-1">Buenos Precios</h6>
+                            <p class="text-muted fw-light text-sm mb-0">Precios que se ajustan a todos</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 py-4 service-column text-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor"
+                            class="bi bi-whatsapp" viewBox="0 0 16 16">
+                            <path
+                                d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+                        </svg>
+                        <div class="service-text">
+                            <h6 class="text-sm mb-1">+1 786 667 7227</h6>
+                            <p class="text-muted fw-light text-sm mb-0">Servicio de atención en línea</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Galería -->
+    <div class="container py-6">
+        <div class="row">
+            <div class="mb-2 col-6 col-lg-7 pe-1">
+                <div class="banner" style="background-color:#c6d5ea">
+                    <div class="banner-text p-3 p-lg-5">
+                        <p class="subtitle text-sm" style="color: #425c81">Ropa de Mezclilla</p>
+                        <h2 class="mb-0">Chaquetas </h2>
+                    </div>
+                    <div class="banner-bg"><img class="img-fluid"
+                            src="https://d19m59y37dris4.cloudfront.net/varkala/2-1/img/product/category-jackets-3-colour-bg-2.jpg"
+                            alt=""></div><a class="stretched-link banner-link keychainify-checked" href="#"><span
+                            class="sr-only">Ver</span></a>
+                </div>
+            </div>
+            <div class="mb-2 col-6 col-lg-5 ps-1">
+                <div class="banner" style="background-color:#fce6e8">
+                    <div class="banner-text p-3 p-lg-5">
+                        <p class="subtitle text-sm" style="color: #94585e">Ropa de Invierno</p>
+                        <h2 class="mb-0">Abrigos </h2>
+                    </div>
+                    <div class="banner-bg"><img class="img-fluid"
+                            src="https://d19m59y37dris4.cloudfront.net/varkala/2-1/img/product/category-coats-2-colour-bg-2.jpg"
+                            alt=""></div><a class="stretched-link banner-link keychainify-checked" href="#"><span
+                            class="sr-only">Ver</span></a>
+                </div>
+            </div>
+            <div class="mb-2 col-6 col-lg-5 pe-1">
+                <div class="banner" style="background-color:#faf7e6">
+                    <div class="banner-text p-3 p-lg-5">
+                        <p class="subtitle text-sm" style="color: #9e9056">Ropa para Ocaciones</p>
+                        <h2 class="mb-0">Vestidos </h2>
+                    </div>
+                    <div class="banner-bg"><img class="img-fluid"
+                            src="https://d19m59y37dris4.cloudfront.net/varkala/2-1/img/product/category-dresses-2-colour-bg-2.jpg"
+                            alt=""></div><a class="stretched-link banner-link keychainify-checked" href="#"><span
+                            class="sr-only">Ver</span></a>
+                </div>
+            </div>
+            <div class="mb-2 col-6  col-lg-7 ps-1">
+                <div class="banner" style="background-color:#f8ebf5">
+                    <div class="banner-text p-3 p-lg-5">
+                        <p class="subtitle text-sm" style="color: #9c5f8f">Ropa de uso frecuente</p>
+                        <h2 class="mb-0">Pantalones </h2>
+                    </div>
+                    <div class="banner-bg"><img class="img-fluid"
+                            src="https://d19m59y37dris4.cloudfront.net/varkala/2-1/img/product/category-jeans-colour-bg-2.jpg"
+                            alt=""></div><a class="stretched-link banner-link keychainify-checked" href="#"><span
+                            class="sr-only">Ver</span></a>
+                </div>
+            </div>
+            <div class="mb-2 col-6 col-lg-7 pe-1">
+                <div class="banner" style="background-color:#c9f2e4">
+                    <div class="banner-text p-3 p-lg-5">
+                        <p class="subtitle text-sm" style="color: #418a70">Bolsos &amp; Accesorios</p>
+                        <h2 class="mb-0">Bolsos </h2>
+                    </div>
+                    <div class="banner-bg"><img class="img-fluid"
+                            src="https://d19m59y37dris4.cloudfront.net/varkala/2-1/img/product/category-bags-2-colour-bg-2.jpg"
+                            alt=""></div><a class="stretched-link banner-link keychainify-checked" href="#"><span
+                            class="sr-only">Ver</span></a>
+                </div>
+            </div>
+            <div class="mb-2 col-6 col-lg-5 ps-1">
+                <div class="banner" style="background-color:#ece2d6">
+                    <div class="banner-text p-3 p-lg-5">
+                        <p class="subtitle text-sm" style="color: #775a3d">Calzado para Ocaciones</p>
+                        <h2 class="mb-0">Calzado </h2>
+                    </div>
+                    <div class="banner-bg"><img class="img-fluid"
+                            src="https://d19m59y37dris4.cloudfront.net/varkala/2-1/img/product/category-shoes-colour-bg.jpg"
+                            alt=""></div><a class="stretched-link banner-link keychainify-checked" href="#"><span
+                            class="sr-only">Ver</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="container my-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h2 class="mb-4" style="color: #D99830">Únete a nuestro equipo</h2>
+                <p class="lead mb-4" style="color: #6c757d;">Usted también puede vender sus productos en nuestra tienda
+                    en línea. Si tienes
+                    productos de una calidad aceptada ya sean nuevos o de segunda mano y estás interesado en venderlos
+                    en
+                    nuestra plataforma, contáctanos para
+                    obtener más información.</p>
+                <p class=" lead mb-4" style="color: #6c757d;">Nuestro proceso de selección es riguroso y solo aceptamos
+                    a personas serias y educadas.
+                    Si crees que tienes lo necesario para formar parte de nuestro equipo, envíanos un correo electrónico
+                    a <a href="mailto:ventas@tutienda.com" style="color: #D99830">ventas@tutienda.com</a> con la
+                    siguiente información:
+                </p>
+                <ul class="list-unstyled mb-4 lead" style="color: #6c757d;">
+                    <li>Nombre, ciudad y provincia donde vives</li>
+                    <li>Descripción de los productos que vendes por cada uno de ellos</li>
+                    <li>Modo de contácto</li>
+                    <li>Imágenes de tus productos</li>
+                </ul>
+                <p class="lead mb-4" style="color: #6c757d;">Nos pondremos en contacto contigo en un plazo de 2 a 3 días
+                    hábiles para informarte
+                    sobre el proceso de selección de tu producto y los requisitos para ser publicados en nuestra tienda
+                    en
+                    línea nos tomamos esto serio por lo tanto espero usted también.</p>
+            </div>
+            <div class="col-md-6 contact-form">
+                <div class="card border-contact-form rounded-3">
+                    <div class="card-header bg-custom-contact text-white">
+                        <h4 class="mb-0">Contáctanos</h4>
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nombre" class="form-label">Nombre</label>
+                                <input type="text" class="form-control" id="nombre" name="nombre" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="correo" class="form-label">Correo electrónico</label>
+                                <input type="email" class="form-control" id="correo" name="correo" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensaje" class="form-label">Mensaje</label>
+                                <textarea class="form-control" id="mensaje" name="mensaje" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-send">Enviar mensaje</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer id="footer" class="bg-footer text-white d-flex-column text-center">
+        <hr class="mt-0">
+        <!--Social buttons-->
+        <div class="text-center">
+            <h4>Nos puede encontrar</h4>
+            <ul class="list-unstyled list-inline">
+                <li class="list-inline-item">
+                    <a target="_blank" href="#" class="sbtn btn-large mx-1" title="Facebook">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                            class="bi bi-facebook" viewBox="0 0 16 16">
+                            <path
+                                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                        </svg>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a target="_blank" href="#" class="sbtn btn-large mx-1" title="Telegram">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                            class="bi bi-telegram" viewBox="0 0 16 16">
+                            <path
+                                d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z" />
+                        </svg>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a target="_blank" href="#" class="sbtn btn-large mx-1" title="Whatsapp">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                            class="bi bi-whatsapp" viewBox="0 0 16 16">
+                            <path
+                                d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+                        </svg>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a target="_blank" href="#" class="sbtn btn-large mx-1" title="Instagram">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                            class="bi bi-instagram" viewBox="0 0 16 16">
+                            <path
+                                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!--/.Social buttons-->
+        <hr class="mb-0">
+        <!--Footer Links-->
+        <div class="container text-left text-md-center">
+            <div class="row">
+                <!--First column-->
+                <div class="col-md-3 mx-auto shfooter">
+                    <h5 class="my-2 font-weight-bold d-none d-md-block">Productos</h5>
+                    <div class="d-md-none title" data-target="#Product" data-toggle="collapse">
+                        <div class="mt-3 font-weight-bold">Product
+                            <div class="float-right navbar-toggler">
+                                <i class="fas fa-angle-down"></i>
+                                <i class="fas fa-angle-up"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="list-unstyled collapse" id="Product">
+                        <li><a target="_blank" href="#">Productos Nuevos</a></li>
+                        <li><a target="_blank" href="#">Productos de Segunda Mano</a></li>
+                        <li><a target="_blank" href="#">Ropa de Hombre</a></li>
+                        <li><a target="_blank" href="#">Ropa de Mujer</a></li>
+                    </ul>
+                </div>
+                <!--/.First column-->
+                <hr class="clearfix w-100 d-md-none mb-0">
+                <!--Second column-->
+                <div class="col-md-3 mx-auto shfooter">
+                    <h5 class="my-2 font-weight-bold d-none d-md-block">Tu Percha S.A</h5>
+                    <div class="d-md-none title" data-target="#Company" data-toggle="collapse">
+                        <div class="mt-3 font-weight-bold">Company
+                            <div class="float-right navbar-toggler">
+                                <i class="fas fa-angle-down"></i>
+                                <i class="fas fa-angle-up"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="list-unstyled collapse" id="Company">
+                        <li><a target="_blank" href="#">Quienes Somos</a></li>
+                        <li><a target="_blank" href="#">Misión</a></li>
+                        <li><a target="_blank" href="#">Visión</a></li>
+                        <li><a target="_blank" href="#">Precios</a></li>
+                        <li><a target="_blank" href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <!--/.Second column-->
+                <hr class="clearfix w-100 d-md-none mb-0">
+                <!--Third column-->
+                <div class="col-md-3 mx-auto shfooter">
+                    <h5 class="my-2 font-weight-bold d-none d-md-block">Recursos</h5>
+                    <div class="d-md-none title" data-target="#Resources" data-toggle="collapse">
+                        <div class="mt-3 font-weight-bold">Resources
+                            <div class="float-right navbar-toggler">
+                                <i class="fas fa-angle-down"></i>
+                                <i class="fas fa-angle-up"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="list-unstyled collapse" id="Resources">
+                        <li><a target="_blank" href="#">Blog</a></li>
+                        <li><a target="_blank" href="#">Afiliarse</a></li>
+                        <li><a target="_blank" href="#"></a>Repartidores</li>
+                        <li><a target="_blank" href="#">Ciudades donde estamos</a></li>
+                        <li><a target="_blank" href="#"></a>Provincias donde estamos</li>
+                    </ul>
+                </div>
+                <!--/.Third column-->
+                <hr class="clearfix w-100 d-md-none mb-0">
+                <!--Fourth column-->
+                <div class="col-md-3 mx-auto shfooter">
+                    <h5 class="my-2 font-weight-bold d-none d-md-block">Ayuda</h5>
+                    <div class="d-md-none title" data-target="#Get-Help" data-toggle="collapse">
+                        <div class="mt-3 font-weight-bold">Get Help
+                            <div class="float-right navbar-toggler">
+                                <i class="fas fa-angle-down"></i>
+                                <i class="fas fa-angle-up"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="list-unstyled collapse" id="Get-Help">
+                        <li><a target="_blank" href="#" target="_blank">Centro de Ayuda</a></li>
+                        <li><a target="_blank" href="#">Contáctanos</a></li>
+                        <li><a target="_blank" href="#">Política de Privacidad</a></li>
+                        <li><a target="_blank" href="#">Términos y Condiciones</a></li>
+                        <li><a target="_blank" href="#">Denunciar</a></li>
+                    </ul>
+                </div>
+                <!--/.Fourth column-->
+            </div>
+        </div>
+        <!--/.Footer Links-->
+        <hr class="mb-0">
+        <!--Copyright-->
+        <div class="py-3 text-center">
+            Copyright
+            <script>
+                document.write(new Date().getFullYear())
+            </script> <a target="_blank" href="#">Tu Percha</a> | Estilo con seriedad
+        </div>
+        <!--/.Copyright-->
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-..."
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
