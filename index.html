@@ -99,8 +99,8 @@
                                 <p class="lead animate__animated animate__fadeInDown" style="animation-delay: 0.8s;">
                                     Encuentra las últimas tendencias de moda para hombres y mujeres en nuestra tienda en
                                     línea.</p>
-                                <a href="#"
-                                    class="btn header-effect keychainify-checked animate__animated animate__fadeInDown"
+                                <a href="#" id="mi-botonheader"
+                                    class="btn header-effect animate__animated animate__fadeInDown"
                                     style="animation-delay: 1s;">Ver productos</a>
                             </div>
                             <div class="carousel-item">
@@ -149,7 +149,7 @@
         <div class="container">
             <h2 class="mb-4">Productos destacados</h2>
             <div class="row">
-                <div class="col-md-3 mb-4">
+                <div class="col-lg-3 col-md-6 col-6 mb-4">
                     <div class="card">
                         <img src="./img/Mujer/vestidos/vestido-002.png" alt="Producto" class="card-img-top">
                         <div class="card-body">
@@ -159,7 +159,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 mb-4">
+                <div class="col-lg-3 col-md-6 col-6 mb-4">
                     <div class="card">
                         <img src="./img/Mujer/Conjunto/conjunto-001.png" alt="Producto" class="card-img-top">
                         <div class="card-body">
@@ -169,7 +169,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 mb-4">
+                <div class="col-lg-3 col-md-6 col-6 mb-4">
                     <div class="card">
                         <img src="./img/Mujer/Calzado-M/zapatillas-001.png" alt="Producto" class="card-img-top">
                         <div class="card-body">
@@ -179,7 +179,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 mb-4">
+                <div class="col-lg-3 col-md-6 col-6 mb-4">
                     <div class="card">
                         <img src="./img/Mujer/Pantalon_M/pantalon-002.png" alt="Producto" class="card-img-top">
                         <div class="card-body">
@@ -253,89 +253,116 @@
 
         AOS.refresh();
     </script>
-
     <!-- Etiquetas -->
-    <div class="d-flex gap-2 justify-content-center py-5">
-        <a href="#"><span
+    <div class="d-flex flex-wrap justify-content-center py-5">
+        <a href="#" class="flex-grow-1 mb-3 mb-lg-0 mx-lg-2 col-md-6 col-lg-2 py-2">
+            <span
                 class="badge d-flex align-items-center p-1 pe-2 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-pill btn-lg text-dark">
                 <img class="rounded-circle me-1" width="64" height="64" src="./img/Mujer/blusas/blusa-001.jpg"
                     alt="">Pulovers
             </span>
         </a>
-        <a href="#"><span
+        <a href="#" class="flex-grow-1 mb-3 mb-lg-0 mx-lg-2 col-md-6 col-lg-2 py-2">
+            <span
                 class="badge d-flex align-items-center p-1 pe-2 text-secondary-emphasis bg-secondary-subtle border border-secondary-subtle rounded-pill btn-lg text-dark">
                 <img class="rounded-circle me-1" width="64" height="64" src="./img/Mujer/Pantalon_M/pantalon-001.png"
                     alt="">Pantalones
-            </span></a>
-        <a href="#"><span
+            </span>
+        </a>
+        <a href="#" class="flex-grow-1 mb-3 mb-lg-0 mx-lg-2 col-md-6 col-lg-2 py-2">
+            <span
                 class="badge d-flex align-items-center p-1 pe-2 text-success-emphasis bg-success-subtle border border-success-subtle rounded-pill btn-lg text-dark">
                 <img class="rounded-circle me-1" width="64" height="64" src="./img/Mujer/vestidos/1-.png"
                     alt="">Vestidos
-            </span></a>
-        <a href="#"><span
+            </span>
+        </a>
+        <a href="#" class="flex-grow-1 mb-3 mb-lg-0 mx-lg-2 col-md-6 col-lg-2 py-2">
+            <span
                 class="badge d-flex align-items-center p-1 pe-2 text-danger-emphasis bg-danger-subtle border border-danger-subtle rounded-pill btn-lg text-dark">
                 <img class="rounded-circle me-1" width="64" height="64" src="./img/Mujer/Zayas/1.jpg" alt="">Zayas
-            </span></a>
-        <a href="#"><span
+            </span>
+        </a>
+        <a href="#" class="flex-grow-1 mb-3 mb-lg-0 mx-lg-2 col-md-6 col-lg-2 py-2">
+            <span
                 class="badge d-flex align-items-center p-1 pe-2 text-warning-emphasis bg-warning-subtle border border-warning-subtle rounded-pill btn-lg text-dark">
                 <img class="rounded-circle me-1" width="64" height="64" src="./img/Mujer/blusas/blusa-001.jpg"
                     alt="">Blusas
-            </span></a>
-        <a href="#"><span
+            </span>
+        </a>
+        <a href="#" class="flex-grow-1 mb-3 mb-lg-0 mx-lg-2 col-md-6 col-lg-2 py-2">
+            <span
                 class="badge d-flex align-items-center p-1 pe-2 text-info-emphasis bg-info-subtle border border-info-subtle rounded-pill btn-lg text-dark">
                 <img class="rounded-circle me-1" width="64" height="64" src="./img/Mujer/Chaqueta/chaqueta-001.jpg"
                     alt="">Chaquetas
-            </span></a>
-
-        <!-- <span
-            class="badge d-flex align-items-center p-1 pe-2 text-dark-emphasis bg-light-subtle border border-dark-subtle rounded-pill btn-lg">
-            <img class="rounded-circle me-1" width="64" height="64" src="https://github.com/mdo.png" alt="">Light
-        </span>
-        <span
-            class="badge d-flex align-items-center p-1 pe-2 text-dark-emphasis bg-dark-subtle border border-dark-subtle rounded-pill btn-lg">
-            <img class="rounded-circle me-1" width="64" height="64" src="https://github.com/mdo.png" alt="">Dark
-        </span> -->
-    </div>
-    <div class="d-flex gap-2 justify-content-center py-5">
-        <a href="#"><span
+            </span>
+        </a>
+        <a href="#" class="flex-grow-1 mb-3 mb-lg-0 mx-lg-2 col-md-6 col-lg-2 py-2">
+            <span
                 class="badge d-flex align-items-center p-1 pe-2 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-pill btn-lg text-dark">
                 <img class="rounded-circle me-1" width="64" height="64" src="./img/Hombre/Suéters/Suéters-001.jpg"
                     alt="">Suéteres
-            </span></a>
-        <a href="#"><span
+            </span>
+        </a>
+        <a href="#" class="flex-grow-1 mb-3 mb-lg-0 mx-lg-2 col-md-6 col-lg-2 py-2">
+            <span
                 class="badge d-flex align-items-center p-1 pe-2 text-secondary-emphasis bg-secondary-subtle border border-secondary-subtle rounded-pill btn-lg text-dark">
                 <img class="rounded-circle me-1" width="64" height="64" src="./img/Hombre/Enguatadas/Enguatada-001.jpg"
                     alt="">Enguatadas
-            </span></a>
-        <a href="#"><span
+            </span>
+        </a>
+        <a href="#" class="flex-grow-1 mb-3 mb-lg-0 mx-lg-2 col-md-6 col-lg-2 py-2">
+            <span
                 class="badge d-flex align-items-center p-1 pe-2 text-success-emphasis bg-success-subtle border border-success-subtle rounded-pill btn-lg text-dark">
                 <img class="rounded-circle me-1" width="64" height="64"
                     src="./img/Hombre/Pantalones-H/Pantalon-001-.png" alt="">Pantalones
-            </span></a>
-        <a href="#"><span
+            </span>
+        </a>
+        <a href="#" class="flex-grow-1 mb-3 mb-lg-0 mx-lg-2 col-md-6 col-lg-2 py-2">
+            <span
                 class="badge d-flex align-items-center p-1 pe-2 text-danger-emphasis bg-danger-subtle border border-danger-subtle rounded-pill btn-lg text-dark">
                 <img class="rounded-circle me-1" width="64" height="64" src="./img/Hombre/polovers/pulovers-1.png"
                     alt="">Polovers
-            </span></a>
-        <a href="#"><span
+            </span>
+        </a>
+        <a href="#" class="flex-grow-1 mb-3 mb-lg-0 mx-lg-2 col-md-6 col-lg-2 py-2">
+            <span
                 class="badge d-flex align-items-center p-1 pe-2 text-warning-emphasis bg-warning-subtle border border-warning-subtle rounded-pill btn-lg text-dark">
                 <img class="rounded-circle me-1" width="64" height="64" src="./img/Hombre/Short-H/short-001.jpg"
                     alt="">Short
-            </span></a>
-        <a href="#"><span
+            </span>
+        </a>
+        <a href="#" class="flex-grow-1 mb-3 mb-lg-0 mx-lg-2 col-md-6 col-lg-2 py-2">
+            <span
                 class="badge d-flex align-items-center p-1 pe-2 text-info-emphasis bg-info-subtle border border-info-subtle rounded-pill btn-lg text-dark">
                 <img class="rounded-circle me-1" width="64" height="64" src="./img/Hombre/Calzado-H/botas-001.png"
                     alt="">Calzado
-            </span></a>
-        <!-- <span
-            class="badge d-flex align-items-center p-1 pe-2 text-dark-emphasis bg-light-subtle border border-dark-subtle rounded-pill btn-lg">
-            <img class="rounded-circle me-1" width="64" height="64" src="https://github.com/mdo.png" alt="">Light
-        </span>
-        <span
-            class="badge d-flex align-items-center p-1 pe-2 text-dark-emphasis bg-dark-subtle border border-dark-subtle rounded-pill btn-lg">
-            <img class="rounded-circle me-1" width="64" height="64" src="https://github.com/mdo.png" alt="">Dark
-        </span> -->
+            </span>
+        </a>
+        <a href="#" class="flex-grow-1 mb-3 mb-lg-0 mx-lg-2 col-md-6 col-lg-2 py-2">
+            <span
+                class="badge d-flex align-items-center p-1 pe-2 text-warning-emphasis bg-warning-subtle border border-warning-subtle rounded-pill btn-lg text-dark">
+                <img class="rounded-circle me-1" width="64" height="64" src="./img/Hombre/Short-H/short-001.jpg"
+                    alt="">Short
+            </span>
+        </a>
+        <a href="#" class="flex-grow-1 mb-3 mb-lg-0 mx-lg-2 col-md-6 col-lg-2 py-2">
+            <span
+                class="badge d-flex align-items-center p-1 pe-2 text-info-emphasis bg-info-subtle border border-info-subtle rounded-pill btn-lg text-dark">
+                <img class="rounded-circle me-1" width="64" height="64" src="./img/Hombre/Calzado-H/botas-001.png"
+                    alt="">Calzado
+            </span>
+        </a>
+        <a href="#" class="flex-grow-1 mb-3 mb-lg-0 mx-lg-2 col-md-6 col-lg-2 py-2">
+            <span
+                class="badge d-flex align-items-center p-1 pe-2 text-info-emphasis bg-info-subtle border border-info-subtle rounded-pill btn-lg text-dark">
+                <img class="rounded-circle me-1" width="64" height="64" src="./img/Hombre/Calzado-H/botas-001.png"
+                    alt="">Calzado
+            </span>
+        </a>
     </div>
+    <!-- <div class="d-flex flex-wrap justify-content-center py-5">
+
+    </div> -->
     <!-- Servicios -->
     <section>
         <div class="py-5 py-lg-6 bg-gray-100">

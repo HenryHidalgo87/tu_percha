@@ -1,0 +1,263 @@
+/* Estilos generales */
+html,
+body {
+  height: 100%;
+  padding-top: 60px; /* Ajusta este valor según el tamaño de tu nav */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Navegación */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.nav-link {
+  color: black !important;
+}
+
+/* Carrusel */
+.carousel-item img {
+  width: 600px;
+  height: 400px;
+  object-fit: contain;
+}
+
+.display-4 {
+  font-weight: bold;
+}
+
+/* Botones */
+a.header-effect {
+  background-color: #feadce;
+  border: none;
+  color: white;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+a.header-effect:hover {
+    background-color: #CFBAF0 !important;
+    color: white !important;
+    box-shadow: 0px 2px 5px #d1d0e0 !important;
+}
+
+.bg-encargo {
+  background-color: #55CBCD;
+  border: none;
+  color: white;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.bg-encargo:hover {
+  background-color: #F3BE;
+  color: white;
+  box-shadow: 0px 2px 5px #d1d0e0;
+}
+
+.custom-bg-color {
+  background-color: #d0e1d2;
+  color: white;
+}
+
+.btn-callaction {
+  background-color: #55CBCD;
+  border: none;
+  color: white;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.btn-callaction:hover {
+  background-color: #CFBAF0;
+  color: white;
+  box-shadow: 0px 2px 5px #d1d0e0;
+}
+
+#callaction2 {
+  background-color: #CFBAF0 !important;
+  border: none !important;
+  color: white !important;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3) !important;
+}
+
+#callaction2:hover {
+  background-color: #55CBCD !important;
+  border: none !important;
+  color: white !important;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3) !important;
+}
+
+/* Tarjetas */
+.card {
+  transition: transform 0.2s ease-in-out;
+  overflow: hidden;
+  background-color: #f2efea;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-img-top {
+  transition: transform 0.5s ease-in-out;
+  height: 250px; /* Establece una altura fija para las imágenes de las tarjetas */
+  object-fit: cover; /* Redimensiona las imágenes para cubrir toda la altura de la tarjeta */
+}
+
+.card-img-top:hover {
+  transform: scale(1.1);
+}
+
+/* Etiquetas */
+.badge {
+  transition: transform 0.2s ease-in-out;
+  overflow: hidden;
+  background-color: #f2efea;
+}
+
+.badge:hover {
+  transform: scale(1.05);
+}
+
+.badge-img-top {
+  transition: transform 0.5s ease-in-out;
+}
+
+.badge-img-top:hover {
+  transform: scale(1.1);
+}
+
+/* Servicios */
+.service-column {
+  position: relative;
+  overflow: hidden;
+}
+
+.service-column:hover svg {
+  transform: scale(1.1);
+}
+
+.service-column:hover .service-text {
+  transform: translateY(-50%);
+  opacity: 1;
+}
+
+.service-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  transform: translateY(100%);
+  opacity: 0;
+  transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+}
+
+/* Galería */
+.banner-bg {
+  overflow: hidden;
+  position: relative;
+}
+
+.banner-bg img {
+  transition: transform 0.5s ease;
+  height: auto;
+  max-height: 292px;
+}
+
+.banner-bg:hover img {
+  transform: scale(1.1);
+}
+
+.banner-bg .banner-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  transform: translateY(100%);
+  opacity: 0;
+  transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+}
+
+.banner-bg:hover .banner-text {
+  transform: translateY(0%);
+  opacity: 1;
+}
+
+/* Comentarios */
+.comment {
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #f2efea;
+  border-radius: 10px;
+}
+
+.comment .comment-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.comment .comment-header img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.comment .comment-body {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.comment .comment-footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.comment .comment-footer button {
+  background-color: #55CBCD;
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.comment .comment-footer button:hover {
+  background-color: #CFBAF0;
+  box-shadow: 0px 2px 5px #d1d0e0;
+}
+
+/* Pie de página */
+.footer {
+  background-color: #f2efea;
+  padding: 30px;
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+}
+
+.footer a {
+  color: #333;
+  text-decoration: underline;
+}
+
+.footer a:hover {
+  color: #55CBCD;
+}
